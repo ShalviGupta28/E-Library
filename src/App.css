@@ -1,3 +1,5 @@
+/* app */
+
 .App {
   text-align: center;
 }
@@ -35,4 +37,636 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* header */
+.header{
+  background-color: #253f4b;
+  color:white; 
+  margin-top: -24px !important;
+  height: 123px;
+}
+
+.e-library{
+  margin-top: -74px;
+}
+.e-library-deq{
+  margin-top: -74px;
+  margin-left: 100px;
+}
+.powered_by{
+  margin-top: -22px;
+}
+.powered_by-deq{
+  margin-top: -22px;
+  margin-left:109px
+}
+.capgemini{
+  margin-top: -30px;
+  margin-left: 171px;
+  font-family: cursive;
+}
+.capgemini-deq{
+margin-top: -30px;
+  margin-left: 204px;
+  font-family: cursive;
+}
+.capgemini-icon{
+  margin-left: -124px;
+  position: relative;
+  top: 3px;
+}
+.capgemini-icon-deq{
+  margin-left: -104px;
+  position: relative;
+  top: 3px;
+}
+.header-notificatgionbell{
+  margin-left:1150px;
+  position: absolute;
+  top: 35px;
+}
+.header-elibrary-icon{
+  margin-top: 49px;
+  width: 80px;
+  height: 82px;
+  border-radius: 32px;
+  margin-right: 300px;
+  position: relative;
+  right: 52px;
+}
+.header-elibrary-icon-deq{
+  margin-top: 31px;
+  width: 76px;
+  height: 77px;
+  border-radius: 32px;
+  margin-right: 295px;
+}
+/* login */
+.login{
+  background-color: #253f4b;
+  height:633px;
+}
+.login-button{
+  border: 2px solid white;
+  border-radius: 7px;
+  background-color: #253f4b;
+  cursor: pointer;
+  width:100px;
+  height:37px;
+  color:white;
+  margin-top:40px
+}
+.login-field{
+    background-color: transparent;
+    border: none;
+    color: white;
+    border-bottom: 1px solid #aca9a9;
+    margin-bottom: 20px !important;
+    width: 250px;
+    padding-bottom:2px;
+    padding-left:10px
+}
+/* .login-email::placeholder{
+  color:white
+} */
+.login-error{
+  color:white
+}
+.login-label{
+  color:white;
+  width:100px;
+  position:absolute;
+  right:180px
+}
+.login-main-content{
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+.login-password{
+  position: absolute;
+  left:10px
+}
+.login-label::after{
+  position: absolute;
+  color:red;
+  content: "*";
+    top: -4px;
+    /* left: -14px; */
+}
+/* mainpage */
+.main-page-header{
+  text-align: left;
+  height: 70px;
+}
+.main-page-button{
+  color:white;
+  margin-left:2px
+}
+.active {
+  outline: 3px solid white !important;
+}
+/* .main-page-body{
+  background-color: grey;
+  height: 532px;
+} */
+.main-page-left-panel {
+  background-color: black;
+  width:100px;
+  height:1506px;
+  padding-top: 10px;
+  float: left;
+  margin-top: 69px;
+}
+
+.main-page-central-panel{
+  width: 1180px;
+  height:430px;
+  margin: 10px;
+}
+.main-page-profile-icon{
+  background-color:transparent;
+  border:none;
+  cursor: pointer;
+  display: block;
+  margin-left: 1200px;
+  margin-top: -58px;
+  margin-bottom: -16px;
+}
+
+/* dashboard */
+.dashboard-top-panel{
+  border-radius: 40px;
+  border: 2px solid black;
+    background-color: white;
+    color: black;
+    width: 1078px;
+    padding: 1px;
+    margin-left: 130px;
+    top: 80px;
+    position: relative;
+    height: 417px;
+  }
+  .content{
+    margin-top:30px
+  }
+  .dashboard-top-panel-body{
+      background-color: #253f4b;
+      color: white;
+      margin: 10px;
+      padding: 10px;
+      height: 272px
+  }
+  .dashboard-top-left-panel{
+      float:left;
+      text-align: left;
+  }
+.dashboard-top-right-panel{
+  text-align: left;
+  margin-left:5px
+}
+.dashboard-top-left-button{
+  position: absolute;
+  left: 237px;
+  background-color: transparent;
+  border: none;
+  text-decoration: underline;
+  color: #6868e8;
+  cursor: pointer;
+}
+.dashboard-subscribe{
+  position: absolute;
+  left: 233px;
+  color: "blue";
+  background-color: transparent;
+  border: none;
+  text-decoration: underline;
+  color: #6868e8;
+  cursor: pointer;
+}
+.dashboard-top-right-button{
+  float: right;
+  background-color: transparent;
+  border: none;
+  text-decoration: underline;
+  color: #6868e8;
+  cursor: pointer;
+}
+
+.buttonactive{
+  color:'red';
+  background-color: red;
+}
+
+.buttonshow{
+  color:'green';
+  background-color: green;
+}
+
+.buttonhide {
+  color:'yellow';
+  background-color: none;
+}
+.button-selected {
+  border: 4px solid red;
+  background-color: red;
+}
+/* profile */
+.profile-dropdown{
+  margin-left: 1101px;
+}
+.profile-logout{
+  cursor: pointer;
+  background-color: white;
+  color:#253f4b;
+  border:none;
+  border-radius: 20px;
+  margin-left: 56px;
+}
+
+.bi-suit-spade-fill{
+  position: absolute;
+  top: 52px;
+}
+
+/* Active Subscription */
+.active-subscription-quiz-handler{
+  background-color: transparent;
+  border:none;
+  cursor: pointer;
+}
+.subscription-input-error{
+  margin-left: 422px;
+    color: red;
+    font-weight: 700;
+}
+/* logout */
+.logout{
+  background-color: #253f4b;
+  height:633px;
+}
+.logout-message{
+  color:white;
+  position: absolute;
+    top: 30%;
+    right:38%;
+    transform: translateY(-50%);
+    font-family: Sans-serif;
+}
+
+.logout-button{
+    border: 2px solid white;
+    border-radius: 7px;
+    background-color: #253f4b;
+    cursor: pointer;
+    width:150px;
+    height:37px;
+    color:white;
+    margin-top:40px;
+    color:rgb(107, 107, 250);
+    text-decoration: underline;
+    position: absolute;
+    top: 50%;
+    right:45%;
+    transform: translateY(-50%);
+}
+
+/* quiz  */
+.quiz-page-content{
+  border: 1.5px solid black;
+  margin-left: 133px;
+  width: 1095px;
+  border-radius: 25px;
+  box-shadow: 3px 3px;
+  margin-top: 100px;
+}
+.quiz-main-content{
+  background-color: #282c34;
+    margin-bottom: 27px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.quiz-table{
+  width: 1100px;
+  padding: 20px;
+}
+.quiz-options{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+tbody td{
+  padding: 5px;
+}
+
+tbody tr:nth-child(odd){
+  background-color: #abb2c1;
+  color: black;
+}
+
+th{
+  background-color: black;
+  color:white;
+}
+
+.dashboard-table{
+  width: 1100px;
+  padding: 20px;
+  margin-left: -45px;
+}
+
+.quiz-questions{
+    border: 2px solid black;
+    margin-left: 133px;
+    width: 1095px;
+    margin-top: 30px;
+    border-radius: 30px;
+    box-shadow: 3px 3px;
+}
+.restart-quiz{
+  cursor: pointer;
+  background-color:#282c34 ;
+  color:white;
+  border-radius: 5px;
+  height:30px
+}
+.correct-answer{
+  background-color: #6868e8;
+}
+.options{
+  display: flex;
+    margin-left: 240px;
+    right: 400px;
+    padding-bottom: 2px;
+    column-span: 2px;
+    position: relative;
+    background-color: #282c34;
+    gap: 2rem;
+    color:white;
+}
+.noofquestions{
+  position: absolute;
+  margin-left: 15px;
+  color: white;
+}
+.score{
+  position: absolute;
+  right: 70px;
+  color: white;
+}
+.questions{
+    text-align: left;
+    margin-left: 15px;
+    background-color: #282c34;
+    color: white;
+    width: 1060px;
+    padding-top: 64px;
+}
+
+/* ebook */
+.ebook-top-panel{
+  border: 2px solid black;
+  margin-left: 133px;
+  border-radius: 19px;
+  margin-right: 30px;
+  margin-top: 100px;
+}
+.ebook-images {
+  position: relative;
+  bottom: 40px;
+  left: 86px;
+  width: 109px;
+  height: 96px;
+  top: -28px;
+}
+
+.filter-button{
+  background-color: #282c34;
+  color:white;
+  border-radius: 5px;
+  width:100px;
+  position: absolute;
+  right: 50px;
+  cursor: pointer;
+}
+.searchbyname{
+  position: absolute;
+  left: 152px;
+  text-align: center;
+  border: none;
+  box-shadow: 2px 2px 2px 2px;
+}
+.searchbyauthor{
+  position: relative;
+  right: 40px;
+  text-align: center;
+  border: none;
+  box-shadow: 2px 2px 2px 2px;
+}
+.searchbycategory{
+  position: relative;
+  left: 150px;
+  text-align: center;
+  border: none;
+  box-shadow: 2px 2px 2px 2px;
+}
+.filter-input-field{
+  padding-bottom: 10px;
+}
+
+.ebook-button{
+  background-color: transparent;
+    border: none;
+    text-decoration: underline;
+    color: blue;
+}
+
+.all-list-of-books {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  margin: 60px;
+  justify-content: space-around; 
+} 
+
+.listofebooks {
+  display: inline-grid;
+  background-color: #282c34 !important;
+  color: white;
+  width: 292px;
+  margin: 17px;
+  padding-top: 10px;
+  border-radius: 14%;
+  height: 250px;
+  flex-wrap: wrap;
+}
+.ebook-name{
+  text-align: center !important;
+}
+.no-records-found{
+  margin-left: 200px;
+}
+.search{
+      position: absolute;
+      left: 533px;
+      color: red;
+      font-weight: 600;
+}
+/* preview */
+.close-button{
+  cursor: pointer;
+  position: absolute;
+    bottom: 41px;
+    background-color: transparent;
+    border: none;
+    color: blue;
+    font-size: 22px;
+    right: 0px;
+}
+/* recommended modal  */
+.recommended-modal{
+  position: fixed;
+  z-index: 1;
+  left: 461px;
+  top: 237px;
+  /* width: 26%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4); */ 
+}
+.send-button{
+  background-color: #282c34;
+    color: white;
+    border-radius: 5px;
+    margin-left: 30px;
+    width: 76px;
+    cursor: pointer;
+}
+.recommended-input-field{
+  text-align: center;
+}
+.recommended-form{
+  background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 87%;
+    border-radius: 5px;
+}
+/* subscribe form */
+.subscribe-form{
+  margin-top: 150px;
+  color: black;
+  border: 2px solid black;
+  border-radius: 40px;
+  padding: 30px;
+  width: 1022px;
+  margin-left: -27px;
+}
+
+.subscribe-form-title{
+  text-align: center;
+  margin-bottom: 42px;
+}
+
+.subscribe-save-download{
+  background-color: #282c34;
+  opacity: 0.6;
+    color: white;
+    width: 157px;
+    height: 38px;
+    border-radius: 5px;
+    margin-left: 450px;
+    cursor: pointer;
+}
+.subscribe-save-download-enabled{
+  background-color: #282c34;
+  color: white;
+    width: 157px;
+    height: 38px;
+    border-radius: 5px;
+    margin-left: 450px;
+    cursor: pointer;
+}
+.subscription-input-field{
+  text-align: center;
+  margin-bottom: 30px;
+  box-shadow: 2px 2px 2px 2px;
+}
+.subscription-error{
+  color: red;
+  margin-left: 112px;
+  margin-top: -20px;
+}
+.global-id-joining-date{
+  margin-left: 51px;
+}
+.name-emp{
+  margin-top: -126px;
+  margin-left: 379px;
+}
+.grade-supervisior{
+  margin-left: 691px;
+  margin-top: -127px;
+}
+.e-book {
+  background-color: red;
+  color: red;
+}
+
+.dashboard-content{
+  margin-left: 133px;
+    margin-top: 99px;
+    border: 2px solid black;
+    margin-right: 34px;
+    border-radius: 40px;
+    margin-bottom: 30px;
+}
+.dashboard-active-subscription-list{
+  margin-left: 22px;
+}
+
+.dashboard-read-more-button{
+  background-color: #253f4b;
+  border:none;
+  color:white;
+  border-radius: 5px;
+  cursor: pointer;
+  width:150px;
+  height:30px
+}
+.paragraph1{
+ font-size: .6rem;
+text-align: left;
+margin-left: 5px;
+margin-top: -8px;
+
+}
+.paragraph2{
+  font-size: .6rem;
+  word-spacing: 270px;
+}
+.ebooks-button {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: -63px;
+  right: 64px;
+  align-items: self-start;
+  left: 14px;
+}
+
+
+/* page not found  */
+
+.page-not-found-button{
+  background-color: #253f4b;
+  color: white;
+  width: 167px;
+  height: 27px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
 }
